@@ -135,6 +135,8 @@ for i = 1:datasize
     T03 = T01 * T12 * T23;
     T0H = T03 * T3H;
 
+    time = time + dt
+
     % --------- Draw Robot -----------
     tic;
     
